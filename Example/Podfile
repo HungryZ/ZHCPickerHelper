@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZHCPickerHelper_Example' do
+  pod 'ZHCPickerHelper', :path => '../'
+
+  target 'ZHCPickerHelper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
