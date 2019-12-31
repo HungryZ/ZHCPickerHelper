@@ -28,13 +28,13 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/xiaoji520524@163.com/ZHCPickerHelper.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'ZHCPickerHelper/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'ZHCPickerHelper' => ['ZHCPickerHelper/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'ZHCPickerHelper' => ['ZHCPickerHelper/Assets/**/*']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

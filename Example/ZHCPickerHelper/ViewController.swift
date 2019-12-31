@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import ZHCPickerHelper
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        ZHCPickerHelper.show(type: .city(confirmAction: { (a, b, c) in
+            
+        }))
     }
 
     override func didReceiveMemoryWarning() {

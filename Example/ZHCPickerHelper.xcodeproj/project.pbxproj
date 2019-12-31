@@ -40,11 +40,11 @@
 		607FACE51AFB9204008FA782 /* ZHCPickerHelper_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHCPickerHelper_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		84C159684CB71D04D81AAF66 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		8C1004DEAB1CA4D88FEE6E59 /* ZHCPickerHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZHCPickerHelper.podspec; path = ../ZHCPickerHelper.podspec; sourceTree = "<group>"; };
+		84C159684CB71D04D81AAF66 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8C1004DEAB1CA4D88FEE6E59 /* ZHCPickerHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZHCPickerHelper.podspec; path = ../ZHCPickerHelper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A9D76CDDF9CCCF19336DD1E7 /* Pods-ZHCPickerHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHCPickerHelper_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZHCPickerHelper_Tests/Pods-ZHCPickerHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		DFD7CB46AB403E786C1A59B1 /* Pods-ZHCPickerHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHCPickerHelper_Example.release.xcconfig"; path = "Target Support Files/Pods-ZHCPickerHelper_Example/Pods-ZHCPickerHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E2F004EAB6305256299F5FE4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E2F004EAB6305256299F5FE4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F510DDBA2340131A475D4260 /* Pods_ZHCPickerHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHCPickerHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95D4811C4CC58A5D0F74A1F /* Pods-ZHCPickerHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHCPickerHelper_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZHCPickerHelper_Example/Pods-ZHCPickerHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,6 @@
 				A9D76CDDF9CCCF19336DD1E7 /* Pods-ZHCPickerHelper_Tests.debug.xcconfig */,
 				58497F4A9B840A4D45CFA0E8 /* Pods-ZHCPickerHelper_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

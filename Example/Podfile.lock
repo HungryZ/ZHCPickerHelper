@@ -1,0 +1,16 @@
+PODS:
+  - ZHCPickerHelper (0.1.0)
+
+DEPENDENCIES:
+  - ZHCPickerHelper (from `../`)
+
+EXTERNAL SOURCES:
+  ZHCPickerHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZHCPickerHelper: 217ea8e42e2481f1cd1594f8e50f1722f057fba6
+
+PODFILE CHECKSUM: 2467e9464936350ed8e4fd151cbe0e079fefbd98
+
+COCOAPODS: 1.8.4
