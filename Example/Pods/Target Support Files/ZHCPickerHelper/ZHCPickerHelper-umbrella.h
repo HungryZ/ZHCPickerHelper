@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "BundleGetter.h"
 
 FOUNDATION_EXPORT double ZHCPickerHelperVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZHCPickerHelperVersionString[];
