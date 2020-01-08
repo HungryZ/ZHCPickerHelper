@@ -1,5 +1,6 @@
 #use_frameworks!
 use_modular_headers!
+platform :ios, '9.0'
 
 target 'ZHCPickerHelper_Example' do
   pod 'ZHCPickerHelper', :path => '../'

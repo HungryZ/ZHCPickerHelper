@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "summary": "A short description of ZHCPickerHelper.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/xiaoji520524@163.com/ZHCPickerHelper",
+  "homepage": "https://github.com/HungryZ/ZHCPickerHelper",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "xiaoji520524@163.com": "924320752@qq.com"
+    "HungryZ": "924320752@qq.com"
   },
   "source": {
-    "git": "https://github.com/xiaoji520524@163.com/ZHCPickerHelper.git",
+    "git": "https://github.com/HungryZ/ZHCPickerHelper.git",
     "tag": "0.1.0"
   },
   "platforms": {

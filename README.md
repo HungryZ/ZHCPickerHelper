@@ -1,6 +1,6 @@
 # ZHCPickerHelper
 
-[![CI Status](https://img.shields.io/travis/xiaoji520524@163.com/ZHCPickerHelper.svg?style=flat)](https://travis-ci.org/xiaoji520524@163.com/ZHCPickerHelper)
+[![CI Status](https://img.shields.io/travis/HungryZ/ZHCPickerHelper.svg?style=flat)](https://travis-ci.org/HungryZ/ZHCPickerHelper)
 [![Version](https://img.shields.io/cocoapods/v/ZHCPickerHelper.svg?style=flat)](https://cocoapods.org/pods/ZHCPickerHelper)
 [![License](https://img.shields.io/cocoapods/l/ZHCPickerHelper.svg?style=flat)](https://cocoapods.org/pods/ZHCPickerHelper)
 [![Platform](https://img.shields.io/cocoapods/p/ZHCPickerHelper.svg?style=flat)](https://cocoapods.org/pods/ZHCPickerHelper)
@@ -22,7 +22,7 @@ pod 'ZHCPickerHelper'
 
 ## Author
 
-xiaoji520524@163.com, 924320752@qq.com
+HungryZ, 924320752@qq.com
 
 ## License
 
