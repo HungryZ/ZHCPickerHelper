@@ -28,7 +28,9 @@ public class ZHCCityPickerView: ZHCBasePickerView {
     
     override init(frame: CGRect) {
         
-        let bundle = Bundle(for: ZHCPickerHelper.self)
+        // https://www.jianshu.com/p/4188b6447d56
+        let bundleURL = Bundle.main.url(forResource: "ZHCPickerHelper", withExtension: "bundle")!
+        let bundle = Bundle(url: bundleURL)!
         let path = bundle.path(forResource: "city", ofType: "json")!
         let dataString = try! String(contentsOfFile: path, encoding: .utf8)
         let data = dataString.data(using: .utf8)!

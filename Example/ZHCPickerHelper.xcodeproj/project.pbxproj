@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F8F217CA0E98FAE99D9CBF2 /* Pods_ZHCPickerHelper_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A82D0539006B4BFBD75163E /* Pods_ZHCPickerHelper_Tests.framework */; };
-		3F63AF57AAA10451B2909370 /* Pods_ZHCPickerHelper_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F510DDBA2340131A475D4260 /* Pods_ZHCPickerHelper_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		67146A1179AFCF184C4D1F37 /* libPods-ZHCPickerHelper_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C90FA4D43323AAFA6FE76404 /* libPods-ZHCPickerHelper_Example.a */; };
+		7353323C5A581D76B789C270 /* libPods-ZHCPickerHelper_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B3A1DE87A24B4363CED3D09 /* libPods-ZHCPickerHelper_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B3A1DE87A24B4363CED3D09 /* libPods-ZHCPickerHelper_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZHCPickerHelper_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58497F4A9B840A4D45CFA0E8 /* Pods-ZHCPickerHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHCPickerHelper_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZHCPickerHelper_Tests/Pods-ZHCPickerHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5A82D0539006B4BFBD75163E /* Pods_ZHCPickerHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHCPickerHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* ZHCPickerHelper_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHCPickerHelper_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,9 +43,9 @@
 		84C159684CB71D04D81AAF66 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8C1004DEAB1CA4D88FEE6E59 /* ZHCPickerHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZHCPickerHelper.podspec; path = ../ZHCPickerHelper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A9D76CDDF9CCCF19336DD1E7 /* Pods-ZHCPickerHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHCPickerHelper_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZHCPickerHelper_Tests/Pods-ZHCPickerHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C90FA4D43323AAFA6FE76404 /* libPods-ZHCPickerHelper_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZHCPickerHelper_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD7CB46AB403E786C1A59B1 /* Pods-ZHCPickerHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHCPickerHelper_Example.release.xcconfig"; path = "Target Support Files/Pods-ZHCPickerHelper_Example/Pods-ZHCPickerHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E2F004EAB6305256299F5FE4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		F510DDBA2340131A475D4260 /* Pods_ZHCPickerHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHCPickerHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F95D4811C4CC58A5D0F74A1F /* Pods-ZHCPickerHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHCPickerHelper_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZHCPickerHelper_Example/Pods-ZHCPickerHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F63AF57AAA10451B2909370 /* Pods_ZHCPickerHelper_Example.framework in Frameworks */,
+				67146A1179AFCF184C4D1F37 /* libPods-ZHCPickerHelper_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F8F217CA0E98FAE99D9CBF2 /* Pods_ZHCPickerHelper_Tests.framework in Frameworks */,
+				7353323C5A581D76B789C270 /* libPods-ZHCPickerHelper_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,8 +153,8 @@
 		D38D0C35A6D27563475534E6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F510DDBA2340131A475D4260 /* Pods_ZHCPickerHelper_Example.framework */,
-				5A82D0539006B4BFBD75163E /* Pods_ZHCPickerHelper_Tests.framework */,
+				C90FA4D43323AAFA6FE76404 /* libPods-ZHCPickerHelper_Example.a */,
+				0B3A1DE87A24B4363CED3D09 /* libPods-ZHCPickerHelper_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -170,7 +170,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				CCEF5DABB652664F60C60953 /* [CP] Embed Pods Frameworks */,
+				4B8A77AFD17A7EA59F9F70FE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -284,6 +284,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		4B8A77AFD17A7EA59F9F70FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZHCPickerHelper_Example/Pods-ZHCPickerHelper_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ZHCPickerHelper/ZHCPickerHelper.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZHCPickerHelper.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZHCPickerHelper_Example/Pods-ZHCPickerHelper_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8DE4D21B459738A2562C7406 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -304,24 +322,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CCEF5DABB652664F60C60953 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZHCPickerHelper_Example/Pods-ZHCPickerHelper_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ZHCPickerHelper/ZHCPickerHelper.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZHCPickerHelper.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZHCPickerHelper_Example/Pods-ZHCPickerHelper_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

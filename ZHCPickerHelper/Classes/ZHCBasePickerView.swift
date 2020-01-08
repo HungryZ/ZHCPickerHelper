@@ -33,9 +33,9 @@ public class ZHCBasePickerView: UIView, UIPickerViewDataSource, UIPickerViewDele
         return picker
     }()
     
-    lazy var confirmButton = button(title: "确定", titleColor: .white, font: 18, backgroundColor: .purple, target: self, action: #selector(confirmBtnClicked))
+    lazy var confirmButton = button(title: "确定", titleColor: .white, font: 18, backgroundColor: .cyan, target: self, action: #selector(confirmBtnClicked))
     
-    lazy var cancelButton = button(title: "取消", titleColor: .white, font: 18, backgroundColor: .purple, target: self, action: #selector(cancelBtnClicked))
+    lazy var cancelButton = button(title: "取消", titleColor: .white, font: 18, backgroundColor: .cyan, target: self, action: #selector(cancelBtnClicked))
     
     convenience init() {
         self.init(frame: .zero)
@@ -165,7 +165,7 @@ public class ZHCBasePickerView: UIView, UIPickerViewDataSource, UIPickerViewDele
         if let radius = cornerRadius, radius > 0 {
             layer.cornerRadius = radius
         }
-        self.backgroundColor = backgroundColor
+        button.backgroundColor = backgroundColor
         
         if target != nil && action != nil {
             button.addTarget(target, action: action!, for: .touchUpInside)

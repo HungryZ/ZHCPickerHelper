@@ -14,9 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        ZHCPickerHelper.show(type: .city(confirmAction: { (a, b, c) in
-            
-        }))
+        view.backgroundColor = .white
     }
 
     override func didReceiveMemoryWarning() {
@@ -24,5 +22,16 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func clicked(_ sender: Any) {
+//        ZHCPickerHelper.show(type: .city(confirmAction: { (a, b, c) in
+//
+//        }))
+//        ZHCPickerHelper.show(type: .date(confirmAction: { (a, b, c) in
+//
+//        }))
+        ZHCPickerHelper.show(type: .single(dataArray: ["123123", "fsfsf"], confirmAction: { (index, vale) in
+            
+        }))
+    }
 }
 

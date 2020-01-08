@@ -1,4 +1,5 @@
-use_frameworks!
+#use_frameworks!
+use_modular_headers!
 
 target 'ZHCPickerHelper_Example' do
   pod 'ZHCPickerHelper', :path => '../'
