@@ -5,7 +5,7 @@
 //  Created by cy on 2019/11/9.
 //
 
-public class ZHCPickerHelper: NSObject {
+public class ZHCPickerHelper {
     
     public enum PickerType {
         case single(dataArray: [String], confirmAction: ZHCSinglePickerView.SingleConfirmAction)

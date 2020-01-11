@@ -26,7 +26,7 @@ public class ZHCCityPickerView: ZHCBasePickerView {
     var selectedCityRow     = 0
     var selectedDistrictRow = 0
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         
         // https://www.jianshu.com/p/4188b6447d56
         let bundleURL = Bundle.main.url(forResource: "ZHCPickerHelper", withExtension: "bundle")!
@@ -50,7 +50,7 @@ public class ZHCCityPickerView: ZHCBasePickerView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func show(withConfirmAction action: @escaping CityConfirmAction) {
+    public func show(withConfirmAction action: @escaping CityConfirmAction) {
         confirmAction = action
         addSelfToKeyWindow()
     }

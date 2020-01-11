@@ -41,14 +41,6 @@ public class ZHCDatePickerView: ZHCBasePickerView {
         self.init(frame: .zero)
     }
     
-    override init(frame: CGRect) {
-        super.init(frame: .zero)
-    }
-    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
     func show(withConfirmAction action: @escaping DateConfirmAction) {
         confirmAction = action
         addSelfToKeyWindow()

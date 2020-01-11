@@ -1,5 +1,5 @@
 PODS:
-  - ZHCPickerHelper (0.1.0)
+  - ZHCPickerHelper (1.0.0)
 
 DEPENDENCIES:
   - ZHCPickerHelper (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ZHCPickerHelper: 31cab782792276a7b416f0fbb5d115ad660e5206
+  ZHCPickerHelper: b29abf41326930ffdb2b0fe7b3274576515b8db6
 
 PODFILE CHECKSUM: b8f0034ffb6fb76bca8e1036604704c350fd4fb2
 

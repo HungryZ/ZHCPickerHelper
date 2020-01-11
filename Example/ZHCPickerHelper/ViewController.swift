@@ -23,15 +23,15 @@ class ViewController: UIViewController {
     }
 
     @IBAction func clicked(_ sender: Any) {
-//        ZHCPickerHelper.show(type: .city(confirmAction: { (a, b, c) in
-//
-//        }))
+        ZHCPickerHelper.show(type: .city(confirmAction: { (a, b, c) in
+
+        }))
 //        ZHCPickerHelper.show(type: .date(confirmAction: { (a, b, c) in
 //
 //        }))
-        ZHCPickerHelper.show(type: .single(dataArray: ["123123", "fsfsf"], confirmAction: { (index, vale) in
-            
-        }))
+//        ZHCPickerHelper.show(type: .single(dataArray: ["123123", "fsfsf"], confirmAction: { (index, vale) in
+//
+//        }))
     }
 }
 

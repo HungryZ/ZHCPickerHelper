@@ -1,8 +1,8 @@
 {
   "name": "ZHCPickerHelper",
-  "version": "0.1.0",
-  "summary": "A short description of ZHCPickerHelper.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "1.0.0",
+  "summary": "a tool with city picker, date picker and single column selector",
+  "description": "a tool with city picker, date picker and single column selector, swift only.",
   "homepage": "https://github.com/HungryZ/ZHCPickerHelper",
   "license": {
     "type": "MIT",
@@ -13,8 +13,9 @@
   },
   "source": {
     "git": "https://github.com/HungryZ/ZHCPickerHelper.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
+  "swift_versions": "4.1",
   "platforms": {
     "ios": "9.0"
   },
@@ -23,5 +24,6 @@
     "ZHCPickerHelper": [
       "ZHCPickerHelper/Assets/**/*"
     ]
-  }
+  },
+  "swift_version": "4.1"
 }

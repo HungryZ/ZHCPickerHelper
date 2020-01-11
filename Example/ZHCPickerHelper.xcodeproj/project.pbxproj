@@ -15,6 +15,7 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		67146A1179AFCF184C4D1F37 /* libPods-ZHCPickerHelper_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C90FA4D43323AAFA6FE76404 /* libPods-ZHCPickerHelper_Example.a */; };
 		7353323C5A581D76B789C270 /* libPods-ZHCPickerHelper_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B3A1DE87A24B4363CED3D09 /* libPods-ZHCPickerHelper_Tests.a */; };
+		93C831F623C9F19E00DE7E08 /* OCTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C831F523C9F19E00DE7E08 /* OCTestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		84C159684CB71D04D81AAF66 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8C1004DEAB1CA4D88FEE6E59 /* ZHCPickerHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZHCPickerHelper.podspec; path = ../ZHCPickerHelper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93C831F323C9F19D00DE7E08 /* ZHCPickerHelper_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZHCPickerHelper_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		93C831F423C9F19E00DE7E08 /* OCTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCTestViewController.h; sourceTree = "<group>"; };
+		93C831F523C9F19E00DE7E08 /* OCTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCTestViewController.m; sourceTree = "<group>"; };
 		A9D76CDDF9CCCF19336DD1E7 /* Pods-ZHCPickerHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHCPickerHelper_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZHCPickerHelper_Tests/Pods-ZHCPickerHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C90FA4D43323AAFA6FE76404 /* libPods-ZHCPickerHelper_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZHCPickerHelper_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD7CB46AB403E786C1A59B1 /* Pods-ZHCPickerHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHCPickerHelper_Example.release.xcconfig"; path = "Target Support Files/Pods-ZHCPickerHelper_Example/Pods-ZHCPickerHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -110,6 +114,9 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				93C831F423C9F19E00DE7E08 /* OCTestViewController.h */,
+				93C831F523C9F19E00DE7E08 /* OCTestViewController.m */,
+				93C831F323C9F19D00DE7E08 /* ZHCPickerHelper_Example-Bridging-Header.h */,
 			);
 			name = "Example for ZHCPickerHelper";
 			path = ZHCPickerHelper;
@@ -212,7 +219,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1120;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -332,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				93C831F623C9F19E00DE7E08 /* OCTestViewController.m in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,14 +486,17 @@
 			baseConfigurationReference = F95D4811C4CC58A5D0F74A1F /* Pods-ZHCPickerHelper_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ZHCPickerHelper/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZHCPickerHelper/ZHCPickerHelper_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -494,14 +505,16 @@
 			baseConfigurationReference = DFD7CB46AB403E786C1A59B1 /* Pods-ZHCPickerHelper_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ZHCPickerHelper/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ZHCPickerHelper/ZHCPickerHelper_Example-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
