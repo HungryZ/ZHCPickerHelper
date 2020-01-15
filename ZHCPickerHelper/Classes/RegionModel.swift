@@ -8,8 +8,8 @@
 
 public class RegionModel: Codable {
 
-    let code: String
-    let name: String
+    public let code: String
+    public let name: String
     
     init(code: String, name: String) {
         self.code = code

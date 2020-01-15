@@ -10,6 +10,11 @@
 #endif
 #endif
 
+#import "HGYBasePickerView.h"
+#import "HGYCityPickerView.h"
+#import "HGYDatePickerView.h"
+#import "HGYRegionModel.h"
+#import "HGYSinglePickerView.h"
 
 FOUNDATION_EXPORT double ZHCPickerHelperVersionNumber;
 FOUNDATION_EXPORT const unsigned char ZHCPickerHelperVersionString[];

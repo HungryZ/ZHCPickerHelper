@@ -7,19 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19AD6A36F2383B083BF42EEF9B7F3F09 /* ZHCSinglePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 763A0780FA8B5E82D6DC76DC45E28955 /* ZHCSinglePickerView.swift */; };
+		2BC62A9159B652E058558E992BFD8DE5 /* ZHCDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247C2B967B497F5E7EB4982E1EC197DF /* ZHCDatePickerView.swift */; };
 		2EF2760AAEFD0B3C6644A54067275FCD /* Pods-ZHCPickerHelper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09EB4CF99D43E30FC230BBCA8DFE0202 /* Pods-ZHCPickerHelper_Example-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3FE2DEE6E92F2CFB88712E9D8A2AF47B /* ZHCCityPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8662783E6B8CC2F3BAC27BC11F3ED5 /* ZHCCityPickerView.swift */; };
+		379D358FAE6F6BFCBF0DF18889493208 /* HGYSinglePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8508D3397AA670430F959F6355119C73 /* HGYSinglePickerView.m */; };
+		46987C64E34AFE8152C3BEED5F39FBA5 /* HGYBasePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = B3A2079F49EAEF72BCD140AE6D49CB13 /* HGYBasePickerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5A8B7D2A3E4263925538E0E3B7ACA3EE /* Pods-ZHCPickerHelper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5973D68C8228C1F5741287DDDC3AD2B9 /* Pods-ZHCPickerHelper_Tests-dummy.m */; };
-		5F1F654C2B8AB7C04763892A88F914AF /* ZHCDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E646FE968973632045697637CE7526 /* ZHCDatePickerView.swift */; };
-		65D89B5C51816090582B9FD75D27DE43 /* ZHCBasePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED882D4CE299F64BDBF3203B6EE68E98 /* ZHCBasePickerView.swift */; };
-		712A982732FCDD6B68ED88EF65F3BA54 /* ZHCPickerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861C851EB74D3BFE69214DC0C83FAA98 /* ZHCPickerHelper.swift */; };
-		762AA886AD49C6C228C5554EE581AA87 /* RegionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9BBBF525871409FF1B04D4303FCDCE /* RegionModel.swift */; };
-		8123B00904AF0F826D8DA0FFC89FD96F /* ZHCPickerHelper.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 26809ADBCD315C7B5C88D8F7DE0C3C24 /* ZHCPickerHelper.bundle */; };
-		851D7911FC76834A81F287B138E63A5A /* city.json in Resources */ = {isa = PBXBuildFile; fileRef = 3AC20E1145E99A63335007A98DBAE48D /* city.json */; };
-		9A2DE2A84E970521E4FB7EBB484E3C17 /* ZHCSinglePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C7049CB75BEC4BDA27E8014E5A6020 /* ZHCSinglePickerView.swift */; };
-		A035D4599B8BEC720C1C4F25593D513B /* ZHCPickerHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6204E2F07DEC29A297331AACF51D9221 /* ZHCPickerHelper-dummy.m */; };
+		5C90E0BFB72295AAF2BAE7877F65F3C5 /* ZHCPickerHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF533524078F75F09343256DF8DCAD65 /* ZHCPickerHelper-dummy.m */; };
+		5FBC9CA6E7A16101EDEBA2CC571A0AEC /* HGYBasePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E904575701A24BCDA6F5B10D7B7625F /* HGYBasePickerView.m */; };
+		6BFFF399CA2ED123D187259ED5ACACE2 /* HGYDatePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D01A7FCB3B1E1DE73498463BFC42BE3 /* HGYDatePickerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		73AD9AD30C38C308DA8445F7B1267DF1 /* RegionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934C4CCA7DDE26854A2D332284F92C73 /* RegionModel.swift */; };
+		8E6C65DE1766B8AA64100315419A0B78 /* ZHCPickerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B902BE48E67F402307C9E681A028B2 /* ZHCPickerHelper.swift */; };
+		9F3CE6CE54CF67B253FAC6224998EFBE /* HGYRegionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 944D895FF8D3325DA7F182182D0AEF11 /* HGYRegionModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ADB393BF535181675558E9BF13E00258 /* HGYCityPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6993CA7408F978A8CC15B487CA83A40D /* HGYCityPickerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B627FAB37EA4D049E5E9480B942E5ED6 /* ZHCBasePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8113BDD952A01557174E0692E561E9 /* ZHCBasePickerView.swift */; };
+		BE2BA133F7820F49B9EF64D2ADA63837 /* city.json in Resources */ = {isa = PBXBuildFile; fileRef = B366D30BF69B89579292D5FB14C06149 /* city.json */; };
+		BFCFDA31152F8E875FF2B7A8EE429B8A /* HGYSinglePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E8F85D4F42304368ED65A6914605BF /* HGYSinglePickerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C65549D4E50923EAAEAEBA4155C20722 /* Pods-ZHCPickerHelper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 652D2A16F96AB79FA06380D1D3DAA72C /* Pods-ZHCPickerHelper_Example-dummy.m */; };
-		FFAD52F125D0A8AE53734AAB085A310B /* ZHCPickerHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32CA68A853BAB30C8487557D19A63F0C /* ZHCPickerHelper-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CAA70C8E8E02F6307F2D995FAFDFFD48 /* ZHCPickerHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB12EAC0DD2EF902AF1E7C3E6A556D8B /* ZHCPickerHelper-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E7376A0F9CE6FF845BEF6887C01EB512 /* HGYRegionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 52002C4EA69B98468F192070CFE0DED3 /* HGYRegionModel.m */; };
+		EAD57340414AE2FD217CF28AAAF5A5C8 /* HGYDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0CEF9DF7EE8682A0E6975071BB81C2 /* HGYDatePickerView.m */; };
+		EE9C469DDE59D80EA978CC62E91BCD0F /* ZHCCityPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5343E90F3C556685015B37C4859A731 /* ZHCCityPickerView.swift */; };
+		F84BAD11F818392ACFD91257B0DDF37A /* HGYCityPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C2DBFCFD7389F7F8770F12F3DD229C /* HGYCityPickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,13 +39,6 @@
 			remoteGlobalIDString = BC0858FA6EAAD2DFE778218E6C9FA6DC;
 			remoteInfo = "Pods-ZHCPickerHelper_Example";
 		};
-		535161A3FF9BDED758A3D678E9F3C47D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CDC6835134818DBF389E5CDB44790EB0;
-			remoteInfo = "ZHCPickerHelper-ZHCPickerHelper";
-		};
 		883262EB92996A9C975706A5ED02D3C2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -44,44 +46,60 @@
 			remoteGlobalIDString = 7BE24CB4AD9610A6D9542CA508517C04;
 			remoteInfo = ZHCPickerHelper;
 		};
+		A7AF15181C5945569F0010FBDF663D47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDC6835134818DBF389E5CDB44790EB0;
+			remoteInfo = "ZHCPickerHelper-ZHCPickerHelper";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00319473D119ED17F388D9043EDD171A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		02C3FA13F3390591FADB0C446ECD6F46 /* Pods-ZHCPickerHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHCPickerHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		09EB4CF99D43E30FC230BBCA8DFE0202 /* Pods-ZHCPickerHelper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZHCPickerHelper_Example-umbrella.h"; sourceTree = "<group>"; };
-		22E646FE968973632045697637CE7526 /* ZHCDatePickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZHCDatePickerView.swift; path = ZHCPickerHelper/Classes/ZHCDatePickerView.swift; sourceTree = "<group>"; };
-		26809ADBCD315C7B5C88D8F7DE0C3C24 /* ZHCPickerHelper.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ZHCPickerHelper.bundle; path = ZHCPickerHelper/Assets/ZHCPickerHelper.bundle; sourceTree = "<group>"; };
-		32CA68A853BAB30C8487557D19A63F0C /* ZHCPickerHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZHCPickerHelper-umbrella.h"; sourceTree = "<group>"; };
+		1D01A7FCB3B1E1DE73498463BFC42BE3 /* HGYDatePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HGYDatePickerView.h; path = ZHCPickerHelper/Classes/HGYDatePickerView.h; sourceTree = "<group>"; };
+		1EF7CDBAF72E4FE9E53CD5E655EFD1D3 /* ResourceBundle-ZHCPickerHelper-ZHCPickerHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZHCPickerHelper-ZHCPickerHelper-Info.plist"; sourceTree = "<group>"; };
+		247C2B967B497F5E7EB4982E1EC197DF /* ZHCDatePickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZHCDatePickerView.swift; path = ZHCPickerHelper/Classes/ZHCDatePickerView.swift; sourceTree = "<group>"; };
+		2E904575701A24BCDA6F5B10D7B7625F /* HGYBasePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HGYBasePickerView.m; path = ZHCPickerHelper/Classes/HGYBasePickerView.m; sourceTree = "<group>"; };
 		3523362BDBEF4CFE515E5F44F0FD88B2 /* Pods-ZHCPickerHelper_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZHCPickerHelper_Example-resources.sh"; sourceTree = "<group>"; };
-		3AC20E1145E99A63335007A98DBAE48D /* city.json */ = {isa = PBXFileReference; includeInIndex = 1; path = city.json; sourceTree = "<group>"; };
-		3DA943E0DD2F4575E4A1333F6E12E48B /* ZHCPickerHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZHCPickerHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3F962ADA2437E7F6F8201EEB56F0AE2E /* ZHCPickerHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZHCPickerHelper-prefix.pch"; sourceTree = "<group>"; };
+		44700F090161571A73797D1D4C693087 /* ZHCPickerHelper.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZHCPickerHelper.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		465FC19D4F388E44223CB28AACA5577E /* Pods-ZHCPickerHelper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZHCPickerHelper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4A6D5F2B06A06340E4B252A7E2823F7D /* Pods-ZHCPickerHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHCPickerHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4D8113BDD952A01557174E0692E561E9 /* ZHCBasePickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZHCBasePickerView.swift; path = ZHCPickerHelper/Classes/ZHCBasePickerView.swift; sourceTree = "<group>"; };
+		52002C4EA69B98468F192070CFE0DED3 /* HGYRegionModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HGYRegionModel.m; path = ZHCPickerHelper/Classes/HGYRegionModel.m; sourceTree = "<group>"; };
 		5973D68C8228C1F5741287DDDC3AD2B9 /* Pods-ZHCPickerHelper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZHCPickerHelper_Tests-dummy.m"; sourceTree = "<group>"; };
 		5A2B4C5DA113E9CF342F8293080CC1B4 /* Pods-ZHCPickerHelper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZHCPickerHelper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5D0529CFB706B589B78B423E0EB2CD82 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		60973A77448BBFF1D133F09718E87C25 /* libPods-ZHCPickerHelper_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ZHCPickerHelper_Example.a"; path = "libPods-ZHCPickerHelper_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6204E2F07DEC29A297331AACF51D9221 /* ZHCPickerHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZHCPickerHelper-dummy.m"; sourceTree = "<group>"; };
 		652D2A16F96AB79FA06380D1D3DAA72C /* Pods-ZHCPickerHelper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZHCPickerHelper_Example-dummy.m"; sourceTree = "<group>"; };
+		6993CA7408F978A8CC15B487CA83A40D /* HGYCityPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HGYCityPickerView.h; path = ZHCPickerHelper/Classes/HGYCityPickerView.h; sourceTree = "<group>"; };
 		69E95F38B5DF63E3CBAB6D5D5EABEAEB /* libPods-ZHCPickerHelper_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ZHCPickerHelper_Tests.a"; path = "libPods-ZHCPickerHelper_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6E747DE7407AF0AC661DC0982B7D463D /* ResourceBundle-ZHCPickerHelper-ZHCPickerHelper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZHCPickerHelper-ZHCPickerHelper-Info.plist"; sourceTree = "<group>"; };
 		74E806A16E06D64B237BF468F60851DB /* Pods-ZHCPickerHelper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZHCPickerHelper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		861C851EB74D3BFE69214DC0C83FAA98 /* ZHCPickerHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZHCPickerHelper.swift; path = ZHCPickerHelper/Classes/ZHCPickerHelper.swift; sourceTree = "<group>"; };
+		763A0780FA8B5E82D6DC76DC45E28955 /* ZHCSinglePickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZHCSinglePickerView.swift; path = ZHCPickerHelper/Classes/ZHCSinglePickerView.swift; sourceTree = "<group>"; };
+		83E8F85D4F42304368ED65A6914605BF /* HGYSinglePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HGYSinglePickerView.h; path = ZHCPickerHelper/Classes/HGYSinglePickerView.h; sourceTree = "<group>"; };
+		8508D3397AA670430F959F6355119C73 /* HGYSinglePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HGYSinglePickerView.m; path = ZHCPickerHelper/Classes/HGYSinglePickerView.m; sourceTree = "<group>"; };
 		8884518C6CC30F685F988E895809CAED /* Pods-ZHCPickerHelper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZHCPickerHelper_Example.modulemap"; sourceTree = "<group>"; };
-		8B7BBC6B597D9EA6EAA4B804899DEF39 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		944DA9D6F7120DDA6821E3C712AB0000 /* ZHCPickerHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZHCPickerHelper-prefix.pch"; sourceTree = "<group>"; };
+		88B902BE48E67F402307C9E681A028B2 /* ZHCPickerHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZHCPickerHelper.swift; path = ZHCPickerHelper/Classes/ZHCPickerHelper.swift; sourceTree = "<group>"; };
+		934C4CCA7DDE26854A2D332284F92C73 /* RegionModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegionModel.swift; path = ZHCPickerHelper/Classes/RegionModel.swift; sourceTree = "<group>"; };
+		944D895FF8D3325DA7F182182D0AEF11 /* HGYRegionModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HGYRegionModel.h; path = ZHCPickerHelper/Classes/HGYRegionModel.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AD108339DC536A1DC2901D79C79F19B9 /* Pods-ZHCPickerHelper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZHCPickerHelper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AD23ADC5A0CA5CFB983517A475632304 /* ZHCPickerHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZHCPickerHelper.xcconfig; sourceTree = "<group>"; };
-		B342DC8B2F9E39B82483055F78CCB634 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AF533524078F75F09343256DF8DCAD65 /* ZHCPickerHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZHCPickerHelper-dummy.m"; sourceTree = "<group>"; };
+		B366D30BF69B89579292D5FB14C06149 /* city.json */ = {isa = PBXFileReference; includeInIndex = 1; name = city.json; path = ZHCPickerHelper/Assets/city.json; sourceTree = "<group>"; };
+		B3A2079F49EAEF72BCD140AE6D49CB13 /* HGYBasePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HGYBasePickerView.h; path = ZHCPickerHelper/Classes/HGYBasePickerView.h; sourceTree = "<group>"; };
+		B5343E90F3C556685015B37C4859A731 /* ZHCCityPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZHCCityPickerView.swift; path = ZHCPickerHelper/Classes/ZHCCityPickerView.swift; sourceTree = "<group>"; };
+		B9C04D334F4B68BDB608B20D9B55CB9E /* ZHCPickerHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZHCPickerHelper.xcconfig; sourceTree = "<group>"; };
 		C4D24735F8EDA45B18F7EEC356534980 /* Pods-ZHCPickerHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHCPickerHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C7253943430CE15BE79699C275598505 /* Pods-ZHCPickerHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZHCPickerHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D3C7049CB75BEC4BDA27E8014E5A6020 /* ZHCSinglePickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZHCSinglePickerView.swift; path = ZHCPickerHelper/Classes/ZHCSinglePickerView.swift; sourceTree = "<group>"; };
 		D539544ABEC37208AB249281B7051739 /* ZHCPickerHelper.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ZHCPickerHelper.bundle; path = "ZHCPickerHelper-ZHCPickerHelper.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB8F59BB561AFCF4444F415BEF9F547 /* libZHCPickerHelper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZHCPickerHelper.a; path = libZHCPickerHelper.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD8662783E6B8CC2F3BAC27BC11F3ED5 /* ZHCCityPickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZHCCityPickerView.swift; path = ZHCPickerHelper/Classes/ZHCCityPickerView.swift; sourceTree = "<group>"; };
-		E8C4D17CC1D29F015CD4DCE60ACE9386 /* ZHCPickerHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZHCPickerHelper.modulemap; sourceTree = "<group>"; };
-		ED882D4CE299F64BDBF3203B6EE68E98 /* ZHCBasePickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZHCBasePickerView.swift; path = ZHCPickerHelper/Classes/ZHCBasePickerView.swift; sourceTree = "<group>"; };
-		EE9BBBF525871409FF1B04D4303FCDCE /* RegionModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegionModel.swift; path = ZHCPickerHelper/Classes/RegionModel.swift; sourceTree = "<group>"; };
+		DB12EAC0DD2EF902AF1E7C3E6A556D8B /* ZHCPickerHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZHCPickerHelper-umbrella.h"; sourceTree = "<group>"; };
+		EBFFF2DE379F54D1BC248A32007B6FB2 /* ZHCPickerHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZHCPickerHelper.modulemap; sourceTree = "<group>"; };
+		F5C2DBFCFD7389F7F8770F12F3DD229C /* HGYCityPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HGYCityPickerView.m; path = ZHCPickerHelper/Classes/HGYCityPickerView.m; sourceTree = "<group>"; };
+		FD0CEF9DF7EE8682A0E6975071BB81C2 /* HGYDatePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HGYDatePickerView.m; path = ZHCPickerHelper/Classes/HGYDatePickerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +110,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		593C292CDDDAA0605A9481186D7434AD /* Frameworks */ = {
+		5965CA7FEC64F435F497DB0741566FF9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -106,7 +124,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A3993A4677688F92D4894DDCD1B1B6C4 /* Frameworks */ = {
+		883E5EC951C36ADE504C4B44087F89FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -129,6 +147,16 @@
 			path = "Target Support Files/Pods-ZHCPickerHelper_Tests";
 			sourceTree = "<group>";
 		};
+		064FA7A7B3606E4A3FF990762F001F96 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5D0529CFB706B589B78B423E0EB2CD82 /* LICENSE */,
+				00319473D119ED17F388D9043EDD171A /* README.md */,
+				44700F090161571A73797D1D4C693087 /* ZHCPickerHelper.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		3ADC2E28FE0470E05FFAE85A0BE55989 /* Pods-ZHCPickerHelper_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,20 +173,6 @@
 			path = "Target Support Files/Pods-ZHCPickerHelper_Example";
 			sourceTree = "<group>";
 		};
-		4DC3E4AB92E346E30D15D0C488B86271 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6E747DE7407AF0AC661DC0982B7D463D /* ResourceBundle-ZHCPickerHelper-ZHCPickerHelper-Info.plist */,
-				E8C4D17CC1D29F015CD4DCE60ACE9386 /* ZHCPickerHelper.modulemap */,
-				AD23ADC5A0CA5CFB983517A475632304 /* ZHCPickerHelper.xcconfig */,
-				6204E2F07DEC29A297331AACF51D9221 /* ZHCPickerHelper-dummy.m */,
-				944DA9D6F7120DDA6821E3C712AB0000 /* ZHCPickerHelper-prefix.pch */,
-				32CA68A853BAB30C8487557D19A63F0C /* ZHCPickerHelper-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZHCPickerHelper";
-			sourceTree = "<group>";
-		};
 		5A1610145FBA5337899E5E4C71643B90 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -168,68 +182,50 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		7313FF6F71F85693AC2535E21CE81F51 /* Development Pods */ = {
+		6E69BEEF0382C086F1CF4734D5BCCF43 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8418110AB3E0078E17030759DC4C9546 /* ZHCPickerHelper */,
+				83CB29C0D4536CE118A8E42B27122D88 /* ZHCPickerHelper */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		8418110AB3E0078E17030759DC4C9546 /* ZHCPickerHelper */ = {
+		83CB29C0D4536CE118A8E42B27122D88 /* ZHCPickerHelper */ = {
 			isa = PBXGroup;
 			children = (
-				EE9BBBF525871409FF1B04D4303FCDCE /* RegionModel.swift */,
-				ED882D4CE299F64BDBF3203B6EE68E98 /* ZHCBasePickerView.swift */,
-				DD8662783E6B8CC2F3BAC27BC11F3ED5 /* ZHCCityPickerView.swift */,
-				22E646FE968973632045697637CE7526 /* ZHCDatePickerView.swift */,
-				861C851EB74D3BFE69214DC0C83FAA98 /* ZHCPickerHelper.swift */,
-				D3C7049CB75BEC4BDA27E8014E5A6020 /* ZHCSinglePickerView.swift */,
-				D4E339E3FCD7E013BBD38CD3E7E1365F /* Pod */,
-				9442B1B25877585CB8B691D85A39F6E8 /* Resources */,
-				4DC3E4AB92E346E30D15D0C488B86271 /* Support Files */,
+				B3A2079F49EAEF72BCD140AE6D49CB13 /* HGYBasePickerView.h */,
+				2E904575701A24BCDA6F5B10D7B7625F /* HGYBasePickerView.m */,
+				6993CA7408F978A8CC15B487CA83A40D /* HGYCityPickerView.h */,
+				F5C2DBFCFD7389F7F8770F12F3DD229C /* HGYCityPickerView.m */,
+				1D01A7FCB3B1E1DE73498463BFC42BE3 /* HGYDatePickerView.h */,
+				FD0CEF9DF7EE8682A0E6975071BB81C2 /* HGYDatePickerView.m */,
+				944D895FF8D3325DA7F182182D0AEF11 /* HGYRegionModel.h */,
+				52002C4EA69B98468F192070CFE0DED3 /* HGYRegionModel.m */,
+				83E8F85D4F42304368ED65A6914605BF /* HGYSinglePickerView.h */,
+				8508D3397AA670430F959F6355119C73 /* HGYSinglePickerView.m */,
+				934C4CCA7DDE26854A2D332284F92C73 /* RegionModel.swift */,
+				4D8113BDD952A01557174E0692E561E9 /* ZHCBasePickerView.swift */,
+				B5343E90F3C556685015B37C4859A731 /* ZHCCityPickerView.swift */,
+				247C2B967B497F5E7EB4982E1EC197DF /* ZHCDatePickerView.swift */,
+				88B902BE48E67F402307C9E681A028B2 /* ZHCPickerHelper.swift */,
+				763A0780FA8B5E82D6DC76DC45E28955 /* ZHCSinglePickerView.swift */,
+				064FA7A7B3606E4A3FF990762F001F96 /* Pod */,
+				E34B6FF3ABBC93D3EB6EBB0E00A76B47 /* Resources */,
+				FD79A83EB54E59DB47747FE3BD06055B /* Support Files */,
 			);
 			name = ZHCPickerHelper;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		9442B1B25877585CB8B691D85A39F6E8 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				26809ADBCD315C7B5C88D8F7DE0C3C24 /* ZHCPickerHelper.bundle */,
-				CFE6E864284A21D9040577F0A6E9B95D /* ZHCPickerHelper.bundle */,
-			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				7313FF6F71F85693AC2535E21CE81F51 /* Development Pods */,
+				6E69BEEF0382C086F1CF4734D5BCCF43 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				E72ED52A10486CEB644758F6E3A529F8 /* Products */,
 				5A1610145FBA5337899E5E4C71643B90 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		CFE6E864284A21D9040577F0A6E9B95D /* ZHCPickerHelper.bundle */ = {
-			isa = PBXGroup;
-			children = (
-				3AC20E1145E99A63335007A98DBAE48D /* city.json */,
-			);
-			name = ZHCPickerHelper.bundle;
-			path = ZHCPickerHelper/Assets/ZHCPickerHelper.bundle;
-			sourceTree = "<group>";
-		};
-		D4E339E3FCD7E013BBD38CD3E7E1365F /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				8B7BBC6B597D9EA6EAA4B804899DEF39 /* LICENSE */,
-				B342DC8B2F9E39B82483055F78CCB634 /* README.md */,
-				3DA943E0DD2F4575E4A1333F6E12E48B /* ZHCPickerHelper.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
@@ -237,6 +233,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E34B6FF3ABBC93D3EB6EBB0E00A76B47 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B366D30BF69B89579292D5FB14C06149 /* city.json */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		E72ED52A10486CEB644758F6E3A529F8 /* Products */ = {
@@ -250,14 +254,33 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		FD79A83EB54E59DB47747FE3BD06055B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1EF7CDBAF72E4FE9E53CD5E655EFD1D3 /* ResourceBundle-ZHCPickerHelper-ZHCPickerHelper-Info.plist */,
+				EBFFF2DE379F54D1BC248A32007B6FB2 /* ZHCPickerHelper.modulemap */,
+				B9C04D334F4B68BDB608B20D9B55CB9E /* ZHCPickerHelper.xcconfig */,
+				AF533524078F75F09343256DF8DCAD65 /* ZHCPickerHelper-dummy.m */,
+				3F962ADA2437E7F6F8201EEB56F0AE2E /* ZHCPickerHelper-prefix.pch */,
+				DB12EAC0DD2EF902AF1E7C3E6A556D8B /* ZHCPickerHelper-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZHCPickerHelper";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7F9CDA8FAAC8007F198F587AA60E98C2 /* Headers */ = {
+		9AF68493696716E6DB3739C39148DA41 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FFAD52F125D0A8AE53734AAB085A310B /* ZHCPickerHelper-umbrella.h in Headers */,
+				46987C64E34AFE8152C3BEED5F39FBA5 /* HGYBasePickerView.h in Headers */,
+				ADB393BF535181675558E9BF13E00258 /* HGYCityPickerView.h in Headers */,
+				6BFFF399CA2ED123D187259ED5ACACE2 /* HGYDatePickerView.h in Headers */,
+				9F3CE6CE54CF67B253FAC6224998EFBE /* HGYRegionModel.h in Headers */,
+				BFCFDA31152F8E875FF2B7A8EE429B8A /* HGYSinglePickerView.h in Headers */,
+				CAA70C8E8E02F6307F2D995FAFDFFD48 /* ZHCPickerHelper-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,17 +322,17 @@
 		};
 		7BE24CB4AD9610A6D9542CA508517C04 /* ZHCPickerHelper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D7B614A3ECEEBB2FD6B220B8E84C5BCB /* Build configuration list for PBXNativeTarget "ZHCPickerHelper" */;
+			buildConfigurationList = 400F0EC5D7659AFA5A01CF49A1D72DFA /* Build configuration list for PBXNativeTarget "ZHCPickerHelper" */;
 			buildPhases = (
-				7F9CDA8FAAC8007F198F587AA60E98C2 /* Headers */,
-				206CE15F49E3A02C69A24AC64396EAD4 /* Sources */,
-				593C292CDDDAA0605A9481186D7434AD /* Frameworks */,
-				3DA486EF139A49391362F79585553077 /* Copy generated compatibility header */,
+				9AF68493696716E6DB3739C39148DA41 /* Headers */,
+				EF99BADD5352582811DD25859F4754E1 /* Sources */,
+				883E5EC951C36ADE504C4B44087F89FE /* Frameworks */,
+				F08A4DC7B028A7E7B053974DE5908B0A /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A01C94D8917B073697165567A09695F5 /* PBXTargetDependency */,
+				8A4B28D16E729128C2C39E48930BB805 /* PBXTargetDependency */,
 			);
 			name = ZHCPickerHelper;
 			productName = ZHCPickerHelper;
@@ -336,11 +359,11 @@
 		};
 		CDC6835134818DBF389E5CDB44790EB0 /* ZHCPickerHelper-ZHCPickerHelper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F51FC0EC3884EE83A1A9F94E42CB824D /* Build configuration list for PBXNativeTarget "ZHCPickerHelper-ZHCPickerHelper" */;
+			buildConfigurationList = 7FD2D214422F0B55FA89A0E090D9F458 /* Build configuration list for PBXNativeTarget "ZHCPickerHelper-ZHCPickerHelper" */;
 			buildPhases = (
-				6349BC0A7EC5218C30663E9E822DC873 /* Sources */,
-				A3993A4677688F92D4894DDCD1B1B6C4 /* Frameworks */,
-				60000EFB967D3171F597B5A65AFCF2F1 /* Resources */,
+				15B07E1A401811A918DD8B8D8C7611AF /* Sources */,
+				5965CA7FEC64F435F497DB0741566FF9 /* Frameworks */,
+				DF60326BB0ADB78863127AF7720888A3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -366,7 +389,6 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = E72ED52A10486CEB644758F6E3A529F8 /* Products */;
@@ -382,19 +404,18 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		60000EFB967D3171F597B5A65AFCF2F1 /* Resources */ = {
+		DF60326BB0ADB78863127AF7720888A3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				851D7911FC76834A81F287B138E63A5A /* city.json in Resources */,
-				8123B00904AF0F826D8DA0FFC89FD96F /* ZHCPickerHelper.bundle in Resources */,
+				BE2BA133F7820F49B9EF64D2ADA63837 /* city.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3DA486EF139A49391362F79585553077 /* Copy generated compatibility header */ = {
+		F08A4DC7B028A7E7B053974DE5908B0A /* Copy generated compatibility header */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -421,17 +442,10 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		206CE15F49E3A02C69A24AC64396EAD4 /* Sources */ = {
+		15B07E1A401811A918DD8B8D8C7611AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				762AA886AD49C6C228C5554EE581AA87 /* RegionModel.swift in Sources */,
-				65D89B5C51816090582B9FD75D27DE43 /* ZHCBasePickerView.swift in Sources */,
-				3FE2DEE6E92F2CFB88712E9D8A2AF47B /* ZHCCityPickerView.swift in Sources */,
-				5F1F654C2B8AB7C04763892A88F914AF /* ZHCDatePickerView.swift in Sources */,
-				A035D4599B8BEC720C1C4F25593D513B /* ZHCPickerHelper-dummy.m in Sources */,
-				712A982732FCDD6B68ED88EF65F3BA54 /* ZHCPickerHelper.swift in Sources */,
-				9A2DE2A84E970521E4FB7EBB484E3C17 /* ZHCSinglePickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,13 +457,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6349BC0A7EC5218C30663E9E822DC873 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6EF80CD4C51B00A155D36A28CB729FB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -458,14 +465,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EF99BADD5352582811DD25859F4754E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FBC9CA6E7A16101EDEBA2CC571A0AEC /* HGYBasePickerView.m in Sources */,
+				F84BAD11F818392ACFD91257B0DDF37A /* HGYCityPickerView.m in Sources */,
+				EAD57340414AE2FD217CF28AAAF5A5C8 /* HGYDatePickerView.m in Sources */,
+				E7376A0F9CE6FF845BEF6887C01EB512 /* HGYRegionModel.m in Sources */,
+				379D358FAE6F6BFCBF0DF18889493208 /* HGYSinglePickerView.m in Sources */,
+				73AD9AD30C38C308DA8445F7B1267DF1 /* RegionModel.swift in Sources */,
+				B627FAB37EA4D049E5E9480B942E5ED6 /* ZHCBasePickerView.swift in Sources */,
+				EE9C469DDE59D80EA978CC62E91BCD0F /* ZHCCityPickerView.swift in Sources */,
+				2BC62A9159B652E058558E992BFD8DE5 /* ZHCDatePickerView.swift in Sources */,
+				5C90E0BFB72295AAF2BAE7877F65F3C5 /* ZHCPickerHelper-dummy.m in Sources */,
+				8E6C65DE1766B8AA64100315419A0B78 /* ZHCPickerHelper.swift in Sources */,
+				19AD6A36F2383B083BF42EEF9B7F3F09 /* ZHCSinglePickerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A01C94D8917B073697165567A09695F5 /* PBXTargetDependency */ = {
+		8A4B28D16E729128C2C39E48930BB805 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "ZHCPickerHelper-ZHCPickerHelper";
 			target = CDC6835134818DBF389E5CDB44790EB0 /* ZHCPickerHelper-ZHCPickerHelper */;
-			targetProxy = 535161A3FF9BDED758A3D678E9F3C47D /* PBXContainerItemProxy */;
+			targetProxy = A7AF15181C5945569F0010FBDF663D47 /* PBXContainerItemProxy */;
 		};
 		E885E597F85C48C43628FA9CDDF4E2AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -482,31 +508,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		068698EB11AE6B629869F5E739C7DDB7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD23ADC5A0CA5CFB983517A475632304 /* ZHCPickerHelper.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ZHCPickerHelper/ZHCPickerHelper-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MODULEMAP_FILE = Headers/Public/ZHCPickerHelper/ZHCPickerHelper.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = ZHCPickerHelper;
-				PRODUCT_NAME = ZHCPickerHelper;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		2A8BEB0413ABBB32636F057B7F031BAD /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 02C3FA13F3390591FADB0C446ECD6F46 /* Pods-ZHCPickerHelper_Tests.release.xcconfig */;
@@ -529,9 +530,9 @@
 			};
 			name = Release;
 		};
-		60FAA9D83A624C0427BCCEFF8D8ACC9E /* Release */ = {
+		4BA76E1BBCDFBDEC90702C7BB9C6A0F7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD23ADC5A0CA5CFB983517A475632304 /* ZHCPickerHelper.xcconfig */;
+			baseConfigurationReference = B9C04D334F4B68BDB608B20D9B55CB9E /* ZHCPickerHelper.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZHCPickerHelper";
@@ -566,49 +567,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
-		};
-		7DE35BDE486307902BD1EA5C0E99B302 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD23ADC5A0CA5CFB983517A475632304 /* ZHCPickerHelper.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZHCPickerHelper";
-				IBSC_MODULE = ZHCPickerHelper;
-				INFOPLIST_FILE = "Target Support Files/ZHCPickerHelper/ResourceBundle-ZHCPickerHelper-ZHCPickerHelper-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = ZHCPickerHelper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		89D0E0362B136CCB8FC87EF876530062 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD23ADC5A0CA5CFB983517A475632304 /* ZHCPickerHelper.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ZHCPickerHelper/ZHCPickerHelper-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MODULEMAP_FILE = Headers/Public/ZHCPickerHelper/ZHCPickerHelper.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = ZHCPickerHelper;
-				PRODUCT_NAME = ZHCPickerHelper;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.1;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
 		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -756,6 +714,32 @@
 			};
 			name = Debug;
 		};
+		CA6394F0FB2A20695E3A7AF0FC671016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9C04D334F4B68BDB608B20D9B55CB9E /* ZHCPickerHelper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ZHCPickerHelper/ZHCPickerHelper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/ZHCPickerHelper/ZHCPickerHelper.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZHCPickerHelper;
+				PRODUCT_NAME = ZHCPickerHelper;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		CBA31F38C4D192DC140F9796DF6057B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C7253943430CE15BE79699C275598505 /* Pods-ZHCPickerHelper_Example.release.xcconfig */;
@@ -779,9 +763,60 @@
 			};
 			name = Release;
 		};
+		D74723EC8055A0A9BB36929FCC85E7FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9C04D334F4B68BDB608B20D9B55CB9E /* ZHCPickerHelper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZHCPickerHelper";
+				IBSC_MODULE = ZHCPickerHelper;
+				INFOPLIST_FILE = "Target Support Files/ZHCPickerHelper/ResourceBundle-ZHCPickerHelper-ZHCPickerHelper-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = ZHCPickerHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F099240BDEC813F91183A4CC12C66F1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9C04D334F4B68BDB608B20D9B55CB9E /* ZHCPickerHelper.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ZHCPickerHelper/ZHCPickerHelper-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/ZHCPickerHelper/ZHCPickerHelper.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ZHCPickerHelper;
+				PRODUCT_NAME = ZHCPickerHelper;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		400F0EC5D7659AFA5A01CF49A1D72DFA /* Build configuration list for PBXNativeTarget "ZHCPickerHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F099240BDEC813F91183A4CC12C66F1D /* Debug */,
+				CA6394F0FB2A20695E3A7AF0FC671016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -800,29 +835,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		7FD2D214422F0B55FA89A0E090D9F458 /* Build configuration list for PBXNativeTarget "ZHCPickerHelper-ZHCPickerHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74723EC8055A0A9BB36929FCC85E7FB /* Debug */,
+				4BA76E1BBCDFBDEC90702C7BB9C6A0F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B7247611866677544F2CF8A4D05E44BE /* Build configuration list for PBXNativeTarget "Pods-ZHCPickerHelper_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B4049FFD460C83211A88A8E6C0EFDD53 /* Debug */,
 				CBA31F38C4D192DC140F9796DF6057B2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D7B614A3ECEEBB2FD6B220B8E84C5BCB /* Build configuration list for PBXNativeTarget "ZHCPickerHelper" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				068698EB11AE6B629869F5E739C7DDB7 /* Debug */,
-				89D0E0362B136CCB8FC87EF876530062 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F51FC0EC3884EE83A1A9F94E42CB824D /* Build configuration list for PBXNativeTarget "ZHCPickerHelper-ZHCPickerHelper" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7DE35BDE486307902BD1EA5C0E99B302 /* Debug */,
-				60FAA9D83A624C0427BCCEFF8D8ACC9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

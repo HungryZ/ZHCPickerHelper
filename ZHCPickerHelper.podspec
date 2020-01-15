@@ -34,7 +34,7 @@ a tool with city picker, date picker and single column selector, swift only.
   s.source_files = 'ZHCPickerHelper/Classes/**/*'
   
    s.resource_bundles = {
-     'ZHCPickerHelper' => ['ZHCPickerHelper/Assets/**/*']
+     'ZHCPickerHelper' => ['ZHCPickerHelper/Assets/*.json']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

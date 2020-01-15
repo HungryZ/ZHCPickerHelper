@@ -23,15 +23,10 @@ class ViewController: UIViewController {
     }
 
     @IBAction func clicked(_ sender: Any) {
-        ZHCPickerHelper.show(type: .city(confirmAction: { (a, b, c) in
-
-        }))
-//        ZHCPickerHelper.show(type: .date(confirmAction: { (a, b, c) in
+//        HGYSinglePickerView().setDataArray(["11", "22"]).show { (index, value) in
 //
-//        }))
-//        ZHCPickerHelper.show(type: .single(dataArray: ["123123", "fsfsf"], confirmAction: { (index, vale) in
-//
-//        }))
+//        }
+        HGYCityPickerView()
     }
 }
 

@@ -22,7 +22,7 @@
   "source_files": "ZHCPickerHelper/Classes/**/*",
   "resource_bundles": {
     "ZHCPickerHelper": [
-      "ZHCPickerHelper/Assets/**/*"
+      "ZHCPickerHelper/Assets/*.json"
     ]
   },
   "swift_version": "4.1"

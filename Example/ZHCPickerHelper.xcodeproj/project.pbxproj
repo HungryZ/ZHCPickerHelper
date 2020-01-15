@@ -15,7 +15,6 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		67146A1179AFCF184C4D1F37 /* libPods-ZHCPickerHelper_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C90FA4D43323AAFA6FE76404 /* libPods-ZHCPickerHelper_Example.a */; };
 		7353323C5A581D76B789C270 /* libPods-ZHCPickerHelper_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B3A1DE87A24B4363CED3D09 /* libPods-ZHCPickerHelper_Tests.a */; };
-		93C831F623C9F19E00DE7E08 /* OCTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93C831F523C9F19E00DE7E08 /* OCTestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +43,6 @@
 		84C159684CB71D04D81AAF66 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8C1004DEAB1CA4D88FEE6E59 /* ZHCPickerHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZHCPickerHelper.podspec; path = ../ZHCPickerHelper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93C831F323C9F19D00DE7E08 /* ZHCPickerHelper_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZHCPickerHelper_Example-Bridging-Header.h"; sourceTree = "<group>"; };
-		93C831F423C9F19E00DE7E08 /* OCTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCTestViewController.h; sourceTree = "<group>"; };
-		93C831F523C9F19E00DE7E08 /* OCTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCTestViewController.m; sourceTree = "<group>"; };
 		A9D76CDDF9CCCF19336DD1E7 /* Pods-ZHCPickerHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHCPickerHelper_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZHCPickerHelper_Tests/Pods-ZHCPickerHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C90FA4D43323AAFA6FE76404 /* libPods-ZHCPickerHelper_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZHCPickerHelper_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFD7CB46AB403E786C1A59B1 /* Pods-ZHCPickerHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHCPickerHelper_Example.release.xcconfig"; path = "Target Support Files/Pods-ZHCPickerHelper_Example/Pods-ZHCPickerHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,8 +111,6 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
-				93C831F423C9F19E00DE7E08 /* OCTestViewController.h */,
-				93C831F523C9F19E00DE7E08 /* OCTestViewController.m */,
 				93C831F323C9F19D00DE7E08 /* ZHCPickerHelper_Example-Bridging-Header.h */,
 			);
 			name = "Example for ZHCPickerHelper";
@@ -177,7 +172,7 @@
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				4B8A77AFD17A7EA59F9F70FE /* [CP] Copy Pods Resources */,
+				BF49C8F5694F0A9AE5F64023 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -291,24 +286,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4B8A77AFD17A7EA59F9F70FE /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZHCPickerHelper_Example/Pods-ZHCPickerHelper_Example-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/ZHCPickerHelper/ZHCPickerHelper.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZHCPickerHelper.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZHCPickerHelper_Example/Pods-ZHCPickerHelper_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		8DE4D21B459738A2562C7406 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -331,6 +308,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BF49C8F5694F0A9AE5F64023 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZHCPickerHelper_Example/Pods-ZHCPickerHelper_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ZHCPickerHelper/ZHCPickerHelper.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZHCPickerHelper.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZHCPickerHelper_Example/Pods-ZHCPickerHelper_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -339,7 +334,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				93C831F623C9F19E00DE7E08 /* OCTestViewController.m in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
